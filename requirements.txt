@@ -1,0 +1,7 @@
+nemo_toolkit['tts']==1.18.0
+numpy=1.23.5
+wandb==0.13.5
+pynini==2.1.5
+--extra-index-url https://download.pytorch.org/whl/cu113
+torch==1.11.0+cu113
+torchaudio==0.11.0+cu113
