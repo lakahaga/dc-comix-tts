@@ -1,6 +1,6 @@
 # dc-comix-tts
 Implementation of [DCComix TTS: An End-to-End Expressive TTS with Discrete Code Collaborated with Mixer](https://arxiv.org/abs/2305.19567)
-Accepted to Interspech 2023. Audio samples/demo for this system is [here](to-be-updated)
+Accepted to Interspech 2023. Audio samples/demo for this system is [here](https://lakahaga.github.io/dc-comix-tts/)
 
 Abstract: Despite the huge successes made in neutral TTS, content-leakage remains a challenge. In this paper, we propose a new input representation and simple architecture to achieve improved prosody modeling. Inspired by the recent success in the use of discrete code in TTS, we introduce discrete code to the input of the reference encoder. Specifically, we leverage the vector quantizer from the audio compression model to exploit the diverse acoustic information it has already been trained on. In addition, we apply the modified MLP-Mixer to the reference encoder, making the architecture lighter. As a result, we train the prosody transfer TTS in an end-to-end manner. We prove the effectiveness of our method through both subjective and objective evaluations. We demonstrate that the reference encoder learns better speaker-independent prosody when discrete code is utilized as input in the experiments. In addition, we obtain comparable results even when fewer parameters are inputted.
 
